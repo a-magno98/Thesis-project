@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>neo4j</groupId>
+  <artifactId>clu_parser</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Archetype - clu_parser</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+	  <dependency>
+	  	<groupId>org.neo4j.driver</groupId>
+		<artifactId>neo4j-java-driver</artifactId>
+		<version>4.4.5</version>
+	  </dependency>
+	  <dependency> 
+	    <groupId>org.janusgraph</groupId>
+	    <artifactId>janusgraph-driver</artifactId>
+	    <version>0.6.2</version>
+	  </dependency>
+	  <dependency>
+	   <groupId>org.apache.tinkerpop</groupId>
+	    <artifactId>gremlin-driver</artifactId>
+	    <version>3.6.0</version>
+	  </dependency>
+		<!--  <dependency>
+    <groupId>org.antlr</groupId>
+    <artifactId>antlr4-runtime</artifactId>
+    <version>4.10.1</version>
+</dependency>-->
+	  <!--<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-api</artifactId>
+	    <version>1.7.5</version>
+	  </dependency>
+	  <dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-log4j12</artifactId>
+	    <version>1.6.4</version>
+	  </dependency>-->
+
+	  <dependency>
+    	<groupId>com.baidu.hugegraph</groupId>
+    	<artifactId>hugegraph-client</artifactId>
+    	<version>2.0.1</version>
+	  </dependency>
+	    
+	   <!-- <dependency>
+    	<groupId>com.refinitiv.ema</groupId>
+    	<artifactId>ema</artifactId>
+    	<version>3.6.6.0</version>
+	   </dependency>-->
+	   
+  </dependencies>
+</project>
