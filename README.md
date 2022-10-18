@@ -8,6 +8,7 @@ analyze possible alternatives to evaluate, in particular:
 2. data analysis support
 3. interoperability via Gremlin, which is a query language product of the 
 Apache TinkerPop project
+
 This thesis aims to analyze some existing alternative database systems based on the 
 graph model, compare them to Neo4j, and evaluate the pros and cons of a specific 
 bioinformatics use case. First, we 
