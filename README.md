@@ -1,5 +1,4 @@
 # Thesis-project
-Java implementation of thesis project regarding bioinformatics scenario using three different databases: Neo4j, JanusGraph, HugeGraph.
 
 In this thesis, starting from a real-world application related to the biological research 
 field and based on Neo4j, which is one of the most used graph-based systems, we 
